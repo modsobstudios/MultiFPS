@@ -75,6 +75,7 @@
     <Compile Include="Assets\menuHandler.cs" />
     <Compile Include="Assets\playerControl.cs" />
     <Compile Include="Assets\playerMove.cs" />
+    <Compile Include="Assets\plyerSetup.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
