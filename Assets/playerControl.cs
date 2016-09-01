@@ -11,7 +11,8 @@ public class playerControl : MonoBehaviour
     float zInput = 0.0f;
     float yRotato = 0.0f;
     float xRotato = 0.0f;
-    Vector3 velX, velZ, velF, rot, camRot;
+    float camRotationX = 0.0f;
+    Vector3 velX, velZ, velF, rot;
 
     // Use this for initialization
     void Start()
@@ -55,9 +56,8 @@ public class playerControl : MonoBehaviour
     {
         xRotato = Input.GetAxis("Mouse Y");
 
-        camRot = new Vector3(xRotato, 0.0f, 0.0f);
-        camRot *= mouseSpeed;
+        camRotationX = xRotato * mouseSpeed;
        
-        move.RotCam(camRot);
+        move.RotCam(camRotationX);
     }
 }

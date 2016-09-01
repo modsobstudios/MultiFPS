@@ -5,10 +5,13 @@ public class playerMove : MonoBehaviour
 {
     Vector3 vel = Vector3.zero;
     Vector3 rot = Vector3.zero;
-    Vector3 camrot = Vector3.zero;
+    float camRotX = 0.0f;
+    float currCamRotX = 0.0f;
     public Camera playerCam;
     Quaternion qot = Quaternion.identity;
     Rigidbody rb;
+
+    public float camLim = 86.0f;
     // Use this for initialization
     void Start()
     {
@@ -22,9 +25,9 @@ public class playerMove : MonoBehaviour
     {
         rot = _rot;
     }
-    public void RotCam(Vector3 _rot)
+    public void RotCam(float _rot)
     {
-        camrot = _rot;
+        camRotX = _rot;
     }
     void calcMovement()
     {
@@ -37,7 +40,11 @@ public class playerMove : MonoBehaviour
     {
         qot = Quaternion.Euler(rot);
         rb.MoveRotation(rb.rotation * qot);
-        playerCam.transform.Rotate(-camrot);
+
+        currCamRotX -= camRotX;
+        currCamRotX = Mathf.Clamp(currCamRotX, -camLim, camLim);
+
+        playerCam.transform.localEulerAngles = new Vector3(currCamRotX, 0.0f, 0.0f);
     }
     void FixedUpdate()
     {

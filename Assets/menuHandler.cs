@@ -12,6 +12,8 @@ public class menuHandler : MonoBehaviour
     void Start()
     {
         buf = false;
+        canvas.enabled = !canvas.isActiveAndEnabled;
+
     }
 
     // Update is called once per frame
