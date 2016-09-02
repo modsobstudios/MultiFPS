@@ -16,7 +16,7 @@ Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Un
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.075 seconds
+- Completed reload, in  0.211 seconds
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 5280x1080 at -1920,0
@@ -27,10 +27,10 @@ The class named 'playerWeapons' is not derived from MonoBehaviour or ScriptableO
  
 (Filename:  Line: 1510)
 
-UnloadTime: 1.262857 ms
+UnloadTime: 1.042714 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 223c -> priority: 1 
-  Thread -> id: 429c -> priority: 1 
+  Thread -> id: 3ad4 -> priority: 1 
+  Thread -> id: 288c -> priority: 1 
 The class named 'playerWeapons' is not derived from MonoBehaviour or ScriptableObject!
  
 (Filename:  Line: 1510)
