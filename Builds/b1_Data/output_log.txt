@@ -10,33 +10,111 @@ Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Un
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.dll into Unity Child Domain
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.211 seconds
+- Completed reload, in  0.120 seconds
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 5280x1080 at -1920,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-The class named 'playerWeapons' is not derived from MonoBehaviour or ScriptableObject!
- 
-(Filename:  Line: 1510)
-
-UnloadTime: 1.042714 ms
+UnloadTime: 1.140104 ms
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 3ad4 -> priority: 1 
-  Thread -> id: 288c -> priority: 1 
-The class named 'playerWeapons' is not derived from MonoBehaviour or ScriptableObject!
+  Thread -> id: c34 -> priority: 1 
+  Thread -> id: 1760 -> priority: 1 
+Player 2 now has 90 health.
  
-(Filename:  Line: 1510)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
-The class named 'playerWeapons' is not derived from MonoBehaviour or ScriptableObject!
+Player 2 now has 80 health.
  
-(Filename:  Line: 1510)
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 70 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 60 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 50 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 40 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 30 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 20 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 10 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 now has 0 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 1 has killed Player 2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 is dead.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Player 2 respawned.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 780 (ID=0x1004)
+    Vendor:   NVIDIA
+    VRAM:     3039 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.093 seconds
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Mattrello\Desktop\MultiFPS\Builds\b1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5280x1080 at -1920,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.481553 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 30c8 -> priority: 1 
+  Thread -> id: 3640 -> priority: 1 
+Player 2 now has 90 health.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
 
 Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
