@@ -1,0 +1,14 @@
+The Basic Unity Character Controller:
+
+// Planar Movement
+xMovement = Input.GetAxis("Horizontal");
+Rigidbody rb
+rb = GetComponent<Rigidbody>();
+rb.MovePosition((xMovement * speed)*time.DeltaTime + transform.forward);
+
+// Rotation
+xRot = Input.GetAxis("MouseX");
+Quaternion qX = Quaternion.Euler(xRot*speed*time.DeltaTime);
+rb.MoveRotation(rb.rotation + qX);
+
+
