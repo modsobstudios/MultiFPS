@@ -12,3 +12,29 @@ Quaternion qX = Quaternion.Euler(xRot*speed*time.DeltaTime);
 rb.MoveRotation(rb.rotation + qX);
 
 
+    void GetYRotInput()
+    {
+        yRotato = Input.GetAxis("Mouse X");
+
+        rot = new Vector3(0.0f, yRotato, 0.0f);
+        rot *= mouseSpeed;
+
+        move.Rot(rot);
+    }
+
+    void GetXRotInput()
+    {
+        xRotato = Input.GetAxis("Mouse Y");
+
+        camRotationX = xRotato * mouseSpeed;
+       
+        move.RotCam(camRotationX);
+    }
+
+        qot = Quaternion.Euler(rot);
+        rb.MoveRotation(rb.rotation * qot);
+
+        currCamRotX -= camRotX;
+        currCamRotX = Mathf.Clamp(currCamRotX, -camLim, camLim);
+
+        playerCam.transform.localEulerAngles = new Vector3(currCamRotX, 0.0f, 0.0f);

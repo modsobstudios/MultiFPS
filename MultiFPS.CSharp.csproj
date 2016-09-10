@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\playerControl.cs" />
     <Compile Include="Assets\Scripts\playerFire.cs" />
     <Compile Include="Assets\Scripts\playerMove.cs" />
+    <Compile Include="Assets\Scripts\playerStealth.cs" />
     <Compile Include="Assets\Scripts\playerWeapons.cs" />
     <Compile Include="Assets\Scripts\plyerSetup.cs" />
   </ItemGroup>
